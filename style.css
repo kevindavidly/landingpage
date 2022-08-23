@@ -1,0 +1,112 @@
+     body,
+     footer {
+         background-color: #1F2937;
+     }
+     
+     .container {
+         max-width: 1100px;
+         margin: 0 auto;
+         padding: 0 30px;
+     }
+     
+     .navbar a {
+         font-size: 18px;
+         color: #E5E7EB;
+     }
+     
+     .navbar .logo {
+         font-size: 24px;
+         color: #F9FAF8;
+     }
+     
+     ul {
+         list-style: none;
+     }
+     
+     .navbar .container {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: 100%;
+     }
+     
+     .navbar ul {
+         display: flex;
+     }
+     
+     .navbar ul li {
+         margin-left: 20px;
+     }
+     
+     .header h1 {
+         font-size: 48px;
+         font-weight: bolder;
+         color: #F9FAF8;
+     }
+     
+     .header img {
+         max-width: 400px;
+     }
+     
+     .header .container {
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+     
+     .boxes ul {
+         display: flex;
+         justify-content: space-evenly;
+         margin: 10px;
+         padding: 10px;
+         text-align: center;
+     }
+     
+     .button {
+         background-color: #3882f6;
+         font-size: 18px;
+         color: #E5E7EB;
+     }
+     
+     .box h1 {
+         font-size: 36px;
+         font-family: bolder;
+         color: #1F2937;
+         text-align: center
+     }
+     
+     .box {
+         flex: 1;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     .box img {
+         max-width: 100px;
+         max-height: 100px;
+     }
+     
+     .quote .container {
+         background-color: #E5E7EB;
+         font-size: 36px;
+         font-style: light italic;
+         color: #1F2937;
+         align-items: center;
+     }
+     
+     .quote p {
+         display: flex;
+         justify-content: flex-end;
+     }
+     
+     .last .container {
+         font-size: 18px;
+         color: #E5E7EB;
+         display: flex;
+         justify-content: space-between;
+         max-width: fit-content;
+     }
+     
+     footer {
+         text-align: center;
+     }
